@@ -3,10 +3,13 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Open Sans", sans-serif;
+  background-color: #181f2a;
+  color: #eef;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+  color: #eef;
 }
 
 body {
@@ -28,21 +31,21 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
-  height: 100px;
+  height: 75px;
 }
 header figure {
   display: flex;
-  height: 100%;
   align-items: center;
+  height: 100%;
 }
 header figure img {
   height: 30%;
 }
 header div {
-  width: 60vw;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  width: 60vw;
 }
 header div ul {
   display: flex;
@@ -50,10 +53,51 @@ header div ul {
   padding: 0;
 }
 header div ul li {
-  list-style: none;
   margin-left: 10px;
+  list-style: none;
 }
 header div ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #eef;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.hero figure {
+  width: 100vw;
+  max-width: 400px;
+}
+.hero figure img {
+  width: 75%;
+  height: auto;
+}
+.hero__text {
+  width: 100vw;
+  padding: 0 10%;
+}
+.hero button {
+  width: 60%;
+  height: 40px;
+  border: none;
+  border-radius: 40px;
+  background-color: #65e2d9;
+}
+
+.specifications {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 10%;
+  margin-bottom: 100px;
+}
+.specifications__card {
+  margin-bottom: 60px;
+}
+.specifications__card figure img {
+  height: 50px;
 }
