@@ -1,3 +1,59 @@
-/* Poscicionamiento
- * Modelo Caja
- * */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.4rem;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 100px;
+}
+header figure {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+header figure img {
+  height: 30%;
+}
+header div {
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header div ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+header div ul li {
+  list-style: none;
+  margin-left: 10px;
+}
+header div ul li a {
+  text-decoration: none;
+  color: #fff;
+}
