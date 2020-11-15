@@ -71,7 +71,7 @@ header
 			height: auto
 	&__text
 		width: 100vw
-		padding: 0 10%
+		padding: $mobile-container-padding
 	button
 		width: 60%
 		height: 40px
@@ -83,10 +83,32 @@ header
 	display: flex
 	flex-direction: column
 	text-align: center
-	padding: 0 10%
-	margin-bottom: 100px
+	padding: $mobile-container-padding
+	margin-bottom: 50px
 	&__card
 		margin-bottom: 60px
 		figure
 			img
 				height: 50px
+
+.final-description
+	display: flex
+	flex-direction: column
+	align-items: center
+	padding: $mobile-container-padding
+	figure
+		display: flex
+		justify-content: center
+		width: 100vw
+		img
+			width: 80%
+	div
+		button
+			display: flex
+			align-items: center
+			background-color: $transparent
+			border: none
+			border-bottom: 2px solid $cyan
+			color: $cyan
+			span
+				margin-left: 7px
