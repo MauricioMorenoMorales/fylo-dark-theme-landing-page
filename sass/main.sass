@@ -61,7 +61,7 @@ header
 	display: flex
 	flex-direction: column
 	align-items: center
-	margin-bottom: 100px
+	margin-bottom: $margin-bottom-long
 	text-align: center
 	figure
 		width: 100vw
@@ -76,7 +76,7 @@ header
 		width: 60%
 		height: 40px
 		border: none
-		border-radius: $border-radius
+		border-radius: $button-border-radius
 		background-color: $cyan
 
 .specifications
@@ -84,9 +84,9 @@ header
 	flex-direction: column
 	text-align: center
 	padding: $mobile-container-padding
-	margin-bottom: 50px
+	margin-bottom: $margin-bottom-medium
 	&__card
-		margin-bottom: 60px
+		margin-bottom: $margin-bottom-medium
 		figure
 			img
 				height: 50px
@@ -96,6 +96,7 @@ header
 	flex-direction: column
 	align-items: center
 	padding: $mobile-container-padding
+	margin-bottom: $margin-bottom-long
 	figure
 		display: flex
 		justify-content: center
@@ -106,9 +107,31 @@ header
 		button
 			display: flex
 			align-items: center
-			background-color: $transparent
 			border: none
-			border-bottom: 2px solid $cyan
+			border-bottom: 1px solid $cyan
+			background-color: $transparent
 			color: $cyan
+			cursor: pointer
 			span
 				margin-left: 7px
+
+.comments
+	padding: $mobile-container-padding
+	&__card
+		background-color: $testimonials-background
+		padding: 25px
+		margin-bottom: $margin-bottom-short
+		border-radius: $card-border-radius
+		&__perfil
+			display: flex
+			align-items: center
+			h4
+				margin: 0 0 3px
+			h6
+				margin: 0
+				font-weight: $font-weight-normal
+			figure
+				margin-right: 10px
+				img
+					border-radius: 50%
+					height: 40px

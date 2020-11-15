@@ -65,7 +65,7 @@ header div ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
   text-align: center;
 }
 .hero figure {
@@ -96,7 +96,7 @@ header div ul li a {
   margin-bottom: 50px;
 }
 .specifications__card {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 .specifications__card figure img {
   height: 50px;
@@ -107,6 +107,7 @@ header div ul li a {
   flex-direction: column;
   align-items: center;
   padding: 0 7%;
+  margin-bottom: 130px;
 }
 .final-description figure {
   display: flex;
@@ -119,11 +120,40 @@ header div ul li a {
 .final-description div button {
   display: flex;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0);
   border: none;
-  border-bottom: 2px solid #65e2d9;
+  border-bottom: 1px solid #65e2d9;
+  background-color: rgba(0, 0, 0, 0);
   color: #65e2d9;
+  cursor: pointer;
 }
 .final-description div button span {
   margin-left: 7px;
+}
+
+.comments {
+  padding: 0 7%;
+}
+.comments__card {
+  background-color: #202a3c;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 7px;
+}
+.comments__card__perfil {
+  display: flex;
+  align-items: center;
+}
+.comments__card__perfil h4 {
+  margin: 0 0 3px;
+}
+.comments__card__perfil h6 {
+  margin: 0;
+  font-weight: 400;
+}
+.comments__card__perfil figure {
+  margin-right: 10px;
+}
+.comments__card__perfil figure img {
+  border-radius: 50%;
+  height: 40px;
 }
