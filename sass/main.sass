@@ -22,6 +22,7 @@ body
 	font-size: 1.4rem
 	margin: 0
 	overflow-x: hidden
+	background-image: url('../images/bg-curvy-mobile.svg')
 
 img
 	max-width: 100%
@@ -74,7 +75,7 @@ header
 		padding: $mobile-container-padding
 	button
 		width: 60%
-		height: 40px
+		height: $button-height
 		border: none
 		border-radius: $button-border-radius
 		background-color: $cyan
@@ -117,9 +118,13 @@ header
 
 .comments
 	padding: $mobile-container-padding
+	background-image: url('../images/bg-quotes.png')
+	background-repeat: no-repeat
+	padding-top: 50px
+	background-position-x: 10%
 	&__card
 		background-color: $testimonials-background
-		padding: 25px
+		padding: $card-padding
 		margin-bottom: $margin-bottom-short
 		border-radius: $card-border-radius
 		&__perfil
@@ -135,3 +140,24 @@ header
 				img
 					border-radius: 50%
 					height: 40px
+
+.register
+	padding: $mobile-container-padding
+	&__card
+		background-color: $intro-and-email
+		border-radius: $card-border-radius
+		text-align: center
+		padding: $card-padding
+		box-shadow: $card-box-shadow
+		input
+			width: 100%
+			margin-bottom: $margin-bottom-short
+			height: $button-height
+			border-radius: $button-border-radius
+			border: none
+		button
+			width: 100%
+			height: $button-height
+			border-radius: $button-border-radius
+			border: none
+			background-color: $cyan
