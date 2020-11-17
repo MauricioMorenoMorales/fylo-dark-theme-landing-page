@@ -45,4 +45,37 @@
   .specifications__card {
     padding: 0 30px;
   }
+
+  .final-description {
+    max-width: 1400px;
+    flex-direction: row;
+  }
+  .final-description figure {
+    width: 50%;
+  }
+  .final-description div {
+    width: 50%;
+  }
+
+  .comments {
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .register {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .register__card__inputs {
+    display: flex;
+  }
+  .register__card__inputs input {
+    width: 70%;
+    margin-right: 5%;
+  }
+  .register__card__inputs button {
+    width: 25%;
+  }
 }
