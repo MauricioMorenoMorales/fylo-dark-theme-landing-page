@@ -2,6 +2,16 @@
 @media screen and (min-width: 900px)
 	body
 		font-size: 2.3rem
+	header
+		height: 100px
+		padding: 0 50px
+		div
+			ul
+				li
+					margin-left: 50px
+		figure
+			img
+				height: 50%
 	.hero
 		max-width: 900px
 		figure
@@ -17,4 +27,11 @@
 		button
 			max-width: 300px
 			font-size: $font-size-desktop-titles
-
+	
+	.specifications
+		max-width: 1300px
+		display: grid
+		grid-template-columns: 1fr 1fr
+		grid-template-rows: 1fr 1fr
+		&__card
+			padding: 0 30px

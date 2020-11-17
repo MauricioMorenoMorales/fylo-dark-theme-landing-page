@@ -3,6 +3,17 @@
     font-size: 2.3rem;
   }
 
+  header {
+    height: 100px;
+    padding: 0 50px;
+  }
+  header div ul li {
+    margin-left: 50px;
+  }
+  header figure img {
+    height: 50%;
+  }
+
   .hero {
     max-width: 900px;
   }
@@ -23,5 +34,15 @@
   .hero button {
     max-width: 300px;
     font-size: 2.5rem;
+  }
+
+  .specifications {
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .specifications__card {
+    padding: 0 30px;
   }
 }
