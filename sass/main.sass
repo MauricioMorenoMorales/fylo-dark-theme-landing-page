@@ -24,6 +24,26 @@ body
 	overflow-x: hidden
 	background-image: url('../images/bg-curvy-mobile.svg')
 	 
+
+a
+	transition-duration: .3s
+a:focus
+	outline: 3px solid $cyan
+a:hover
+	color: $cyan
+
+button:focus
+	outline: 3px solid $cyan
+button
+	cursor: pointer
+	transition-duration: .3s
+
+button:hover
+	transform: scale(.9)
+
+input:focus
+	outline: 3px solid $cyan
+
 img
 	max-width: 100%
 	height: auto
@@ -79,6 +99,8 @@ header
 		border: none
 		border-radius: $button-border-radius
 		background-color: $cyan
+		&:hover
+			background-color: darken($cyan, 20%)
 	 
 .specifications
 	display: flex
@@ -166,6 +188,8 @@ header
 			border-radius: $button-border-radius
 			border: none
 			background-color: $cyan
+			&:hover
+				background-color: darken($cyan, 20%)
 	 
 footer
 	background-color: $footer-background
@@ -229,5 +253,8 @@ footer
 				justify-content: center
 				align-items: center
 				margin-bottom: $margin-bottom-medium
+				transition-duration: .3s
+				&:hover
+					background-color: $cyan
 				img
 					height: 20px

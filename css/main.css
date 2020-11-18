@@ -19,6 +19,35 @@ body {
   background-image: url("../images/bg-curvy-mobile.svg");
 }
 
+a {
+  transition-duration: 0.3s;
+}
+
+a:focus {
+  outline: 3px solid #65e2d9;
+}
+
+a:hover {
+  color: #65e2d9;
+}
+
+button:focus {
+  outline: 3px solid #65e2d9;
+}
+
+button {
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  transform: scale(0.9);
+}
+
+input:focus {
+  outline: 3px solid #65e2d9;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -87,6 +116,9 @@ header div ul li a {
   border: none;
   border-radius: 40px;
   background-color: #65e2d9;
+}
+.hero button:hover {
+  background-color: #24bdb2;
 }
 
 .specifications {
@@ -193,6 +225,9 @@ header div ul li a {
   border: none;
   background-color: #65e2d9;
 }
+.register__card button:hover {
+  background-color: #24bdb2;
+}
 
 footer {
   background-color: #0b1523;
@@ -271,6 +306,10 @@ footer .footer-content__social a {
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+  transition-duration: 0.3s;
+}
+footer .footer-content__social a:hover {
+  background-color: #65e2d9;
 }
 footer .footer-content__social a img {
   height: 20px;
