@@ -145,10 +145,11 @@ header div ul li a {
 .final-description figure {
   display: flex;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
 }
 .final-description figure img {
-  width: 80%;
+  width: 100%;
+  height: auto;
 }
 .final-description div button {
   display: flex;
@@ -298,13 +299,13 @@ footer .footer-content__social {
   align-items: center;
 }
 footer .footer-content__social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 10px;
   border: 1px solid #eef;
   padding: 5px;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 50px;
   transition-duration: 0.3s;
 }
