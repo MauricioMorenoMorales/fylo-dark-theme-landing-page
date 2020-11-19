@@ -19,6 +19,10 @@ body {
   background-image: url("../images/bg-curvy-mobile.svg");
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
 a {
   transition-duration: 0.3s;
 }
@@ -146,6 +150,7 @@ header div ul li a {
   display: flex;
   justify-content: center;
   width: 100%;
+  height: auto;
 }
 .final-description figure img {
   width: 100%;
@@ -206,7 +211,7 @@ header div ul li a {
   border-radius: 7px;
   text-align: center;
   padding: 25px;
-  box-shadow: 2px 2px 9px 0px black;
+  box-shadow: 2px 2px 9px 0px #00000082;
 }
 .register__card p {
   margin-bottom: 30px;
@@ -215,6 +220,7 @@ header div ul li a {
   width: 100%;
   margin-bottom: 30px;
   height: 50px;
+  color: #0b1523;
   border-radius: 40px;
   border: none;
   padding-left: 20px;
