@@ -107,7 +107,7 @@ header div ul li a {
   max-width: 400px;
 }
 .hero figure img {
-  width: 75%;
+  width: 80%;
   height: auto;
 }
 .hero__text {
@@ -147,13 +147,12 @@ header div ul li a {
   margin-bottom: 130px;
 }
 .final-description figure {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  max-width: 400px;
+  text-align: center;
 }
 .final-description figure img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 .final-description div button {
